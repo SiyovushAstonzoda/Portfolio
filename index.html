@@ -1,15 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
     <title>MyPortfolio</title>
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="stylesheet" href="Styles/all.min.css">
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="Styles/media.css" />
+    <link rel="stylesheet" href="Styles/all.min.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  </head>
+  <body id="body">
+    <div class="container-fluid">
+      <div class="header">
+        <div class="header-nav navbar">
+          <div class="text-nav"><h5>Siyovush Astonov</h5></div>
+          <div class="right-menu">
+            <ul class="navbar">
+              <li class="nav-item"><a href="" class="nav-link">About me</a></li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+            <nav class="navbar nav-menu">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="offcanvasNavbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Dropdown
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="offcanvasNavbarDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Something else here</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="btn btn-outline-success" type="submit">
+                        Search
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="inf">
+          <div class="name">
+            <h4>WELCOME</h4>
+            <h1>
+              I'm Siyovush <br />
+              Astonov
+            </h1>
+            <p>CEO, Soft-Club It Tech Company</p>
+            <button>Download CV</button>
+          </div>
+          <div class="me">
+            <img src="./Img/Siyovush.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="client">
+        <ul>
+          <a href="">Client</a>
+          <a href="">Client</a>
+          <a href="">Client</a>
+          <a href="">Client</a>
+        </ul>
+      </div>
+      <div class="mid">
+        <div class="left">
+          <img src="./Img/Siyovush3.jpg" alt="" />
+        </div>
+        <div class="right">
+          <h1>About</h1>
+          <p>
+            Hello, my name is Astonov Siyovush. I am 17 years old and I am in
+            11th grade. I have been studying programming for 3 months now. The
+            programming school Soft-Club IT Tech Company helps me in this. In 3
+            months I learned the basics of the C++ language, creating layouts
+            for websites using HTML & CSS, the Bootstrap library and learned how
+            to work on the GIT site. I will continue to learn programming, soon
+            I will have C# language, SQL database and .NET framework. Good luck
+            for me)
+          </p>
+        </div>
+      </div>
+      <div class="skills">
+        <img src="./Img/Vector 3.png" alt="" />
+        <h2>My Skills</h2>
+        <div class="ellipse">
+          <div class="content">
+            <h2>4.0</h2>
+            <img src="./Img/Ellipse 1.png" alt="" />
+            <p>Git</p>
+          </div>
+          <div class="content">
+            <h2>4.8</h2>
+            <img src="./Img/Ellipse 2.png" alt="" />
+            <p>C++</p>
+          </div>
+          <div class="content">
+            <h2>4.0</h2>
+            <img src="./Img/Ellipse 1.png" alt="" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="content">
+            <h2>4.8</h2>
+            <img src="./Img/Ellipse 2.png" alt="" />
+            <p>HTML & CSS</p>
+          </div>
+        </div>
+        <div class="lang">
+          <div class="left">
+            <h2>Language</h2>
+            <img src="./Img/Vector 7.png" alt="" />
+            <h3>Russian</h3>
+            <img src="./Img/Rectangle 5.png" alt="" />
+            <h3>Tajik</h3>
+            <img src="./Img/Rectangle 5.png" alt="" />
+            <h3>English</h3>
+            <img id="ph" src="./Img/Rectangle 6.png" alt="" />
+          </div>
+          <div class="right">
+            <h2>Studies</h2>
+            <img src="./Img/Vector 7.png" alt="" />
+            <div class="stud">
+              <div class="kirkle"><img src="./Img/kirkle.png" alt="" /></div>
+              <div class="soft">
+                <h3>Kodland</h3>
+                <h6>BBA 2021</h6>
+              </div>
+            </div>
+            <div class="stud">
+              <div class="kirkle"><img src="./Img/kirkle.png" alt="" /></div>
+              <div class="soft">
+                <h3>Soft Club</h3>
+                <h6>Since 2022</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="exp">
+          <div class="menu">
+            <img id="fst" src="./Img/Vector 1.png" alt="" />
+            <h2>My Work Experiance</h2>
+            <img id="scnd" src="./Img/Vector 1.png" alt="" />
+          </div>
+          <div class="label">
+            <div class="grid">
+              <img src="./Img/unsplash_glRqyWJgUeY.png" alt="" />
+            </div>
+            <div class="grid">
+              <img src="./Img/unsplash_SpVHcbuKi6E.png" alt="" />
+            </div>
+            <div class="grid">
+              <img src="./Img/unsplash_iGheu30xAi8.png" alt="" />
+            </div>
+            <div class="grid">
+              <img src="./Img/unsplash_i_xVfNtQjwI.png" alt="" />
+            </div>
+          </div>
+          <hr />
+          <div class="footer">
+            <h2>Interested In My Work</h2>
+            <h6>Download my cV to know more about me</h6>
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+  </body>
 </html>
