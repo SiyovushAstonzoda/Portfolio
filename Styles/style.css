@@ -291,6 +291,11 @@ li{
   background: linear-gradient(#3c1dff, #15b9b9 0%, #989898);
 }
 
+.nav-link{
+  display: block;
+    color: white;
+
+}
 button i{
   color: wheat;
 }
