@@ -351,7 +351,7 @@ button i{
 
 
 
-.nav-menu button{
+.navbar button{
   display: none;
 }
 
@@ -380,10 +380,10 @@ button i{
   }
 }
 @media (max-width: 992px) {
-  .nav-menu button{
+  .navbar button{
     display: block;
   }
-  .right-menu ul{
+  .right-menu .fir{
     display: none;
   }
   .inf{
